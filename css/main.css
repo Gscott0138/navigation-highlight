@@ -22,11 +22,12 @@ html {
   padding: .2em .5em .3em;
 }
 
-nav {
-  text-align: center;
+nav ul {
   text-decoration: none;
   font-family: Georgia, serif;
   font-size: 1.125rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav li {
@@ -35,7 +36,6 @@ nav {
 
 .nav a {
   color: #fff;
-  display: inline-block;
   padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
